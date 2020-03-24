@@ -1,7 +1,9 @@
 ---
+layout: default 
 title:  "Hello World"
 excerpt: "공부하는 블로그"
 permalink: /algorithm/
+comments: true
 
 categories:
   - Algorithm
