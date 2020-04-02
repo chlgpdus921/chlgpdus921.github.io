@@ -16,6 +16,7 @@ last_modified_at:  2019-04-02 18:56:00 +0000
 ### Goal
 
 > - 정렬 알고리즘 중 Selection Sort 에 대해 알기
+> - Selection Sort의 장· 단점 
 > - 시간 복잡도 이해하기 
 > - 자바로 구현할 줄 알기
 
@@ -29,7 +30,7 @@ last_modified_at:  2019-04-02 18:56:00 +0000
 
 #### PASS 1  -  주어진 배열 중에서 최솟값을 찾는다.
 
-![](https://chlgpdus921.github.io/assets/images/selectionsort/그림1.png)
+![](https://chlgpdus921.github.io/assets/images/selectionsort/그림1.png) 
 
 
 
@@ -69,11 +70,19 @@ PASS 2와 같은 방식으로 Min 값과 현재 위치(ptr)를 SWAP 한다.
 
 **이러한 방식으로 최댓값을 찾아서 현 위치(ptr)을 맨 뒤에 놓고, 거꾸로 가는 방식도 있다.**
 
-
-
 ---
 
+## Selection Sort (선택 정렬) 의 장 · 단점
 
+- 장점 :
+  - 구현이 단순하다. 
+  - Bubble Sort보다 이동이 적어 비교적 빠르다. 
+
+- 단점 :
+  - 데이터 크기가 커질수록 효율이 떨어진다.
+  - 시간복잡도가  항상 O(n^2) 고정으로 오래걸린다. 
+
+---
 
 ## Selection Sort (선택 정렬) 의 시간복잡도
 
