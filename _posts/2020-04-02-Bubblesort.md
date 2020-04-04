@@ -1,7 +1,7 @@
 ---
 title:  "[SORT] Bubble Sort (버블 소트)"
-excerpt: "Bubble sort 에 대해 알아보자"
-permalink: /sort/bubble
+excerpt: "Bubble sort 개념 및 시간복잡도"
+permalink: /algorithm/sort/bubble
 comments: true
 
 categories:
@@ -118,7 +118,7 @@ public class BubbleSort {
 
 #### 윗 예시를 코드를 통해 똑같이 적용.
 
-#### n = 6,  array = 5, 10, 8, 6, 1, 3
+#### n = 6,  array = [5, 10, 8, 6, 1, 3]
 
 ![](https://chlgpdus921.github.io/assets/images/bubblesort/result.PNG)
 

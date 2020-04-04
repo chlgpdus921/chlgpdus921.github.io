@@ -1,7 +1,7 @@
 ---
 title:  "[SORT] Selection Sort (선택 정렬)"
-excerpt: "selection sort 에 대해 알아보자"
-permalink: /sort/
+excerpt: "selection sort 특징 및 시간복잡도"
+permalink: /algorithm/sort/selection/
 comments: true
 
 categories:
@@ -166,7 +166,7 @@ public class SelectionSort {
 
 #### 윗 예시를 코드를 통해 똑같이 적용.
 
-#### n = 6,  array = 5, 10, 8, 6, 1, 3
+#### n = 6,  array = [5, 10, 8, 6, 1, 3]
 
 ![](https://chlgpdus921.github.io/assets/images/selectionsort/result.PNG)
 

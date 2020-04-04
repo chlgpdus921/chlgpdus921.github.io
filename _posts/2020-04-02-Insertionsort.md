@@ -1,7 +1,7 @@
 ---
 title:  "[SORT] Insertion Sort (삽입 정렬)"
 excerpt: "Insertion sort 특징 및 시간복잡도"
-permalink: /sort/insertion
+permalink: /algorithm/sort/insertion
 comments: true
 
 categories:

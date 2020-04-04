@@ -1,7 +1,7 @@
 ---
 title:  "[SORT] Quick Sort (퀵 정렬)"
 excerpt: "Quick Sort 특징 및 시간복잡도"
-permalink: /sort/Quick
+permalink: /algorithm/sort/Quick
 comments: true
 
 categories:
