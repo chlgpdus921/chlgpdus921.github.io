@@ -1,7 +1,7 @@
 ---
 title:  "Hello World"
 excerpt: "공부하는 블로그"
-permalink: /algorithm/
+permalink: /practice/
 comments: true
 
 categories:

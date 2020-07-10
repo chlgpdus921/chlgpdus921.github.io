@@ -7,7 +7,7 @@ comments: true
 categories:
   - Algorithm
 tags: 
-  - bublle sort
+  - bubble sort
   - sort
   - Alogorithm
 last_modified_at:  2019-04-02 16:56:00 +0000
