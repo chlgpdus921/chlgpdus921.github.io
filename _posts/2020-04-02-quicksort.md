@@ -8,10 +8,12 @@ categories:
   - Algorithm
 tags: 
   - Sort
+toc: true
+toc_sticky: true
 last_modified_at:  2020-04-04 16:24:00 +0000
 ---
 
-### Goal
+## Goal
 
 > - 정렬 알고리즘 중 Quick Sort 에 대해 알기
 > - Quick Sort의 장· 단점 
@@ -54,7 +56,7 @@ last_modified_at:  2020-04-04 16:24:00 +0000
 
 
 
-#### STEP 1  -  pivot 선정
+### STEP 1  -  pivot 선정
 
 - **pivot 값 설정 (pivot값 설정 방식에 따라 수행시간의 차이가 난다.)**
   - 맨 왼쪽 값
@@ -79,7 +81,7 @@ last_modified_at:  2020-04-04 16:24:00 +0000
 
    
 
-#### STEP 2
+### STEP 2
 
 - 알아야 할 조건 
   - **left는 pivot < left 일 때까지 <u>우측으로 이동</u>**
@@ -151,7 +153,7 @@ pivot을 기준으로 부분리스트로 나눠진다. 절반으로 나눠지는
 
 ---
 
-### Quick Sort (퀵 정렬)  JAVA 구현
+## Quick Sort (퀵 정렬)  JAVA 구현
 
 ```java
 public class QuickSort {
@@ -207,9 +209,9 @@ public class QuickSort {
 
 [백준 알고리즘 문제 2751번 - 수 정렬하기 2](https://www.acmicpc.net/problem/2751)
 
-#### 윗 예시를 코드를 통해 똑같이 적용.
+### 윗 예시를 코드를 통해 똑같이 적용.
 
-#### n = 6,  array = [5, 8, 6, 10, 1, 3]
+### n = 6,  array = [5, 8, 6, 10, 1, 3]
 
 ![](https://chlgpdus921.github.io/assets/images/quicksort/result1.PNG)
 

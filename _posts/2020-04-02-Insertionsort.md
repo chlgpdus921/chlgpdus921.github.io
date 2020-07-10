@@ -8,10 +8,12 @@ categories:
   - Algorithm
 tags: 
   - Sort
+toc: true
+toc_sticky: true
 last_modified_at:  2020-04-02 20:00:00 +0000
 ---
 
-### Goal
+## Goal
 
 > - 정렬 알고리즘 중 Insertion Sort 에 대해 알기
 > - Insertion Sort의 장· 단점 
@@ -34,7 +36,7 @@ last_modified_at:  2020-04-02 20:00:00 +0000
 
    
 
-#### PASS 1  -  왼쪽 값과 오른쪽 값을 비교한다. 
+### PASS 1  -  왼쪽 값과 오른쪽 값을 비교한다. 
 
 - 왼쪽 데이터 값과 오른쪽 데이터 값(처음 상태: 두번 째 data 값)을 비교한다.
 - 왼쪽 데이터 값이 더 크다면, 오른쪽 값과 비교한다. 
@@ -50,7 +52,7 @@ last_modified_at:  2020-04-02 20:00:00 +0000
 
 
 
-#### PASS 2  현재 상태(KEY)가 배열의 끝에 도달할 때까지 PASS1를 반복한다. 
+### PASS 2  현재 상태(KEY)가 배열의 끝에 도달할 때까지 PASS1를 반복한다. 
 
 
 
@@ -95,7 +97,7 @@ last_modified_at:  2020-04-02 20:00:00 +0000
 
 ---
 
-### InsertionSort (삽입 정렬)  JAVA 구현
+## Insertion Sort (삽입 정렬) JAVA 구현
 
 ```java
 public class InsertionSort {
@@ -138,10 +140,9 @@ public class InsertionSort {
 }
 ```
 
+### 윗 예시를 코드를 통해 똑같이 적용.
 
-#### 윗 예시를 코드를 통해 똑같이 적용.
-
-#### n = 6,  array = [5, 10, 8, 6, 1, 3]
+### n = 6,  array = [5, 10, 8, 6, 1, 3]
 
 ![](https://chlgpdus921.github.io/assets/images/insertionsort/result1.PNG)
 

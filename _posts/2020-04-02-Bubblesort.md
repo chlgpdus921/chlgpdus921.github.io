@@ -8,10 +8,12 @@ categories:
   - Algorithm
 tags: 
   - Sort
+toc: true
+toc_sticky: true
 last_modified_at:  2020-04-02 16:56:00 +0000
 ---
 
-### Goal
+## Goal
 
 > - 정렬 알고리즘 중 Bubble Sort 에 대해 알기
 > - Bubble Sort의 장· 단점 
@@ -26,9 +28,9 @@ last_modified_at:  2020-04-02 16:56:00 +0000
 
 아래 예시를 통해 이해해 보자 
 
-#### PASS 1  -  왼쪽 값과 오른쪽 값을 비교한다. 
+### PASS 1  -  왼쪽 값과 오른쪽 값을 비교한다. 
 
-#### 			  -  왼쪽 값이 오른쪽 값보다 더 크다면, 두 개의 값을 바꾼다. 
+### 			  -  왼쪽 값이 오른쪽 값보다 더 크다면, 두 개의 값을 바꾼다. 
 
 ![](https://chlgpdus921.github.io/assets/images/bubblesort/그림1.png)
 
@@ -39,7 +41,7 @@ last_modified_at:  2020-04-02 16:56:00 +0000
 
 
 
-#### PASS 2  다시 배열의 처음으로 가서 이를 계속 반복한다. 
+### PASS 2  다시 배열의 처음으로 가서 이를 계속 반복한다. 
 
 ![](https://chlgpdus921.github.io/assets/images/bubblesort/그림2.png)
 
@@ -67,17 +69,15 @@ last_modified_at:  2020-04-02 16:56:00 +0000
 - 데이터 개수 n 개일 때.
   - 전체 합 :  (n-1) + (n-2) + (n-3) + ..... + 2 + 1 =>  n(n-1) / 2*
 
+ 
 
-
-#### 결과 :  
-
-#### - 데이터가 n 개일 때 걸리는 시간 복잡도는 O(n^2) 입니다. 
+#### 결과 : 데이터가 n 개일 때 걸리는 시간 복잡도는 O(n^2) 입니다. 
 
 
 
 ---
 
-### Bubble Sort (버블 소트)  JAVA 구현
+## Bubble Sort (버블 소트)  JAVA 구현
 
 ```java
 public class BubbleSort {
@@ -114,9 +114,9 @@ public class BubbleSort {
 ```
 
 
-#### 윗 예시를 코드를 통해 똑같이 적용.
+### 윗 예시를 코드를 통해 똑같이 적용.
 
-#### n = 6,  array = [5, 10, 8, 6, 1, 3]
+### n = 6,  array = [5, 10, 8, 6, 1, 3]
 
 ![](https://chlgpdus921.github.io/assets/images/bubblesort/result.PNG)
 

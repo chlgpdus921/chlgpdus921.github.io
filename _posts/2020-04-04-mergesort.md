@@ -8,10 +8,12 @@ categories:
   - Algorithm
 tags: 
   - Sort
+toc: true
+toc_sticky: true
 last_modified_at:  2020-04-04 18:24:00 +0000
 ---
 
-### Goal
+## Goal
 
 > - 정렬 알고리즘 중  Merge Sort 에 대해 알기
 > - Merge Sort의 장· 단점 
@@ -132,7 +134,7 @@ last_modified_at:  2020-04-04 18:24:00 +0000
 
 ---
 
-### Merge  Sort (합병 정렬)  JAVA 구현
+## Merge Sort (합병 정렬) JAVA 구현
 
 ```java
 /**
@@ -215,9 +217,9 @@ public class MergeSort {
 
 [백준 알고리즘 문제 2751번 - 수 정렬하기 2](https://www.acmicpc.net/problem/2751)
 
-#### 윗 예시를 코드를 통해 똑같이 적용
+### 윗 예시를 코드를 통해 똑같이 적용
 
-#### n = 6,  array = [8, 4, 10, 26, 3, 15]
+### n = 6,  array = [8, 4, 10, 26, 3, 15]
 
 ![](https://chlgpdus921.github.io/assets/images/mergesort/result.PNG)
 

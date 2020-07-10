@@ -8,10 +8,12 @@ categories:
   - Algorithm
 tags: 
   - Sort
+toc: true
+toc_sticky: true
 last_modified_at:  2020-04-02 18:56:00 +0000
 ---
 
-### Goal
+## Goal
 
 > - 정렬 알고리즘 중 Selection Sort 에 대해 알기
 > - Selection Sort의 장· 단점 
@@ -26,14 +28,14 @@ last_modified_at:  2020-04-02 18:56:00 +0000
 
 아래 예시를 통해 이해해 보자 
 
-#### PASS 1  -  주어진 배열 중에서 최솟값을 찾는다.
+### PASS 1  -  주어진 배열 중에서 최솟값을 찾는다.
 
 ![](https://chlgpdus921.github.io/assets/images/selectionsort/그림1.png) 
 
 
 
 
-#### PASS 2  -  현재 위치 값과 Min 값을 SWAP 한다. 
+### PASS 2  -  현재 위치 값과 Min 값을 SWAP 한다. 
 
 가장 작은 데이터 (Min)값이 배열의 맨 앞자리로 이동했다.
 
@@ -46,7 +48,7 @@ last_modified_at:  2020-04-02 18:56:00 +0000
 
 
 
-#### PASS 3  현재 위치를 다음 index 로 이동시키고, 남은 데이터들 중에서 다시 Min 값을 찾는다. 
+### PASS 3  현재 위치를 다음 index 로 이동시키고, 남은 데이터들 중에서 다시 Min 값을 찾는다. 
 
 PASS 2와 같은 방식으로 Min 값과 현재 위치(ptr)를 SWAP 한다. 
 
@@ -58,7 +60,7 @@ PASS 2와 같은 방식으로 Min 값과 현재 위치(ptr)를 SWAP 한다.
 
 
 
-#### PASS 4  다음 방식을 계속해서 반복한다.
+### PASS 4  다음 방식을 계속해서 반복한다.
 
 ![](https://chlgpdus921.github.io/assets/images/selectionsort/그림6.png)
 
@@ -98,7 +100,7 @@ PASS 2와 같은 방식으로 Min 값과 현재 위치(ptr)를 SWAP 한다.
 
 
 
-#### 데이터 개수 n 개로 다시 적용해보자.
+데이터 개수 n 개로 다시 적용해보자.
 
 > **i == 0   :  arr[1] ~ arr[n-1]  -  비교 횟수 n-1 번**
 >
@@ -112,18 +114,15 @@ PASS 2와 같은 방식으로 Min 값과 현재 위치(ptr)를 SWAP 한다.
 >
 > **i == n-1   :  arr[n-1]  -  비교 횟수 1번**
 
-#### 전체 합 :  (n-1) + (n-2) + (n-3) + ..... + 2 + 1 =>  n(n-1) / 2*
+전체 합 :  (n-1) + (n-2) + (n-3) + ..... + 2 + 1 =>  n(n-1) / 2*
 
-
-
-#### 결과 : 
-#### 데이터가 n 개일 때 걸리는 시간 복잡도는 O(n^2) 입니다. 
+#### 결과 : 데이터가 n 개일 때 걸리는 시간 복잡도는 O(n^2) 입니다. 
 
 
 
 ---
 
-### Selection Sort (선택 정렬)  JAVA 구현
+## Selection Sort (선택 정렬)  JAVA 구현
 
 ```java
 public class SelectionSort {
@@ -162,9 +161,9 @@ public class SelectionSort {
 ```
 
 
-#### 윗 예시를 코드를 통해 똑같이 적용.
+### 윗 예시를 코드를 통해 똑같이 적용.
 
-#### n = 6,  array = [5, 10, 8, 6, 1, 3]
+### n = 6,  array = [5, 10, 8, 6, 1, 3]
 
 ![](https://chlgpdus921.github.io/assets/images/selectionsort/result.PNG)
 
