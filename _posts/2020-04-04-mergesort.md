@@ -218,7 +218,7 @@ public class MergeSort {
 
 [백준 알고리즘 문제 2751번 - 수 정렬하기 2](https://www.acmicpc.net/problem/2751)
 
-#### 윗 예시를 코드를 통해 똑같이 적용.
+#### 윗 예시를 코드를 통해 똑같이 적용
 
 #### n = 6,  array = [8, 4, 10, 26, 3, 15]
 
