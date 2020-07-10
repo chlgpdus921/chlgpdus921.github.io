@@ -7,10 +7,8 @@ comments: true
 categories:
   - Algorithm
 tags: 
-  - selection sort
-  - sort
-  - Alogorithm
-last_modified_at:  2019-04-02 18:56:00 +0000
+  - Sort
+last_modified_at:  2020-04-02 18:56:00 +0000
 ---
 
 ### Goal

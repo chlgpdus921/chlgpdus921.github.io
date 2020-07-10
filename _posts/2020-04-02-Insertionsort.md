@@ -7,11 +7,8 @@ comments: true
 categories:
   - Algorithm
 tags: 
-  - insertion sort
-  - 삽입 정렬
-  - sort
-  - Alogorithm
-last_modified_at:  2019-04-02 20:00:00 +0000
+  - Sort
+last_modified_at:  2020-04-02 20:00:00 +0000
 ---
 
 ### Goal

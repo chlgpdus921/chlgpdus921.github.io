@@ -7,11 +7,8 @@ comments: true
 categories:
   - Algorithm
 tags: 
-  - Merge Sort
-  - 합병 정렬
-  - sort
-  - Alogorithm
-last_modified_at:  2019-04-04 18:24:00 +0000
+  - Sort
+last_modified_at:  2020-04-04 18:24:00 +0000
 ---
 
 ### Goal

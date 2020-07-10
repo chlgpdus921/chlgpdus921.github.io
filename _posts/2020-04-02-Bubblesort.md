@@ -7,10 +7,8 @@ comments: true
 categories:
   - Algorithm
 tags: 
-  - bubble sort
-  - sort
-  - Alogorithm
-last_modified_at:  2019-04-02 16:56:00 +0000
+  - Sort
+last_modified_at:  2020-04-02 16:56:00 +0000
 ---
 
 ### Goal
