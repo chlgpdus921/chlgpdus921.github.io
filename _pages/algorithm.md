@@ -1,10 +1,10 @@
 ---
 title: "Algorithm"
-layout: categories
+layout: category
 permalink: /categories/algorithm/
-taxonomy: algorithm
+taxonomy: Algorithm
 author_profile: true
 ---
 
-스스로 공부하며 정리한 내용입니다. 
+스스로 공부하며 정리한 내용입니다.
 

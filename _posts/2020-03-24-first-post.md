@@ -5,7 +5,7 @@ permalink: /practice/
 comments: true
 
 categories:
-  - Algorithm
+  - Blog
 tags: 
   - Blog
 toc: true
