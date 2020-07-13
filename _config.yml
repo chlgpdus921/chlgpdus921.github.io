@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Hye Yeon Choi"
-  avatar           : "/assets/images/c1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/c3.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I can do it. Just do it.<br>Let's do it now.🥰👍"
   location         : "Gachon Univ. Software"
   email            : "chlgpdus921@naver.com"
