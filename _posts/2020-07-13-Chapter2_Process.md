@@ -1,6 +1,6 @@
 ---
 title:  "[운영체제] Process 정의와 Process 상태도"
-excerpt: "운영체제 process와 Thread"
+excerpt: "운영체제 process정의와 5가지 State를 알아보자"
 comments: true
 
 categories:
