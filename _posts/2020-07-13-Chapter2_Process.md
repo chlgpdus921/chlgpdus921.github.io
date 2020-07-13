@@ -48,13 +48,20 @@ last_modified_at:  2020-07-13 01:12:00 +0000
 
 - **프로세스 (Process) 관리**
   - 사용자 프로세스와 시스템 프로세스의 생성과 삭제
+  
   - 프로세스의 일지 중지와 재 수행
+  
   - 프로세스 스케쥴링
+  
   - 프로세스의 동기화
+  
   - 프로세스 간 통신
+  
   - 교착상태 처리 (Deadlock)
+  
+    
 
-## 
+----
 
 ## 3. 프로세스 구성 요소
 
@@ -94,7 +101,7 @@ last_modified_at:  2020-07-13 01:12:00 +0000
 5. **종료 ( terminated)**
    - 프로세스 실행이 완료되고 할당된 CPU를 반납.
 
-
+<br>
 
 다음 그림은 프로세스 상태도이다. (Five-state)
 
@@ -110,7 +117,7 @@ last_modified_at:  2020-07-13 01:12:00 +0000
 
 **running -> waiting** : timeout전에 I/O 요청 발생 - I/O or Event wait
 
-**waiting -> ready** : I/O요청이 완료되면 다시 ready상타로 전이 - I/O or event completion
+**waiting -> ready** : I/O요청이 완료되면 다시 ready상태로 전이 - I/O or event completion
 
 **running -> terminated** : 프로세스 종료 - exit
 
