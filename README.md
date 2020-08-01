@@ -227,7 +227,6 @@ Font Awesome is distributed under the terms of the [SIL OFL 1.1](http://scripts.
 and [MIT License](http://opensource.org/licenses/MIT).
 
 Minimal Mistakes incorporates photographs from [Unsplash](https://unsplash.com).
-
 Minimal Mistakes incorporates [Susy](http://susy.oddbird.net/),
 Copyright (c) 2017, Miriam Eric Suzanne.
 Susy is distributed under the terms of the [BSD 3-clause "New" or "Revised" License](https://opensource.org/licenses/BSD-3-Clause).
