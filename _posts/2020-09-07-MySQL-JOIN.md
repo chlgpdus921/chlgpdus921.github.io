@@ -36,11 +36,11 @@ LEFT OUTER JOIN 이라고도 쓰이고, LEFT JOIN 으로 쓰는 개발자도 있
 
 LEFT JOIN은 A와 B 테이블 중에  **A값 + A와 B의 KEY값이 같은 결과 ** 를 리턴하는 것이다. 
 
-```mysql
+```sql
 SELECT * FROM TableA A LEFT JOIN TableB B ON A.key = B.key;
 ```
 
-```mysql
+```sql
 SELECT * FROM TableA A LEFT JOIN TableB B ON A.key = B.key;
 ```
 
