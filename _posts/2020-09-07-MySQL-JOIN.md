@@ -24,7 +24,7 @@ last_modified_at:  2020-09-01 19:15:00 +0000
 
 ![image](https://user-images.githubusercontent.com/32683894/91840106-1d099d00-ec8b-11ea-87d0-248be6b55a46.png)
 
-## 
+
 
 ---
 
@@ -34,7 +34,11 @@ LEFT OUTER JOIN 이라고도 쓰이고, LEFT JOIN 으로 쓰는 개발자도 있
 
 <img src="https://user-images.githubusercontent.com/32683894/91832062-da8e9300-ec7f-11ea-9c24-b4176ecbfc87.png" alt="image" style="zoom:50%;" />
 
-LEFT JOIN은 A와 B 테이블 중에  **A값 + A와 B의 KEY값이 같은 결과 **를 리턴하는 것이다. 
+LEFT JOIN은 A와 B 테이블 중에  **A값 + A와 B의 KEY값이 같은 결과 ** 를 리턴하는 것이다. 
+
+```mysql
+SELECT * FROM TableA A LEFT JOIN TableB B ON A.key = B.key;
+```
 
 ```mysql
 SELECT * FROM TableA A LEFT JOIN TableB B ON A.key = B.key;
