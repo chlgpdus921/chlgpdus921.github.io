@@ -34,7 +34,7 @@ LEFT OUTER JOIN 이라고도 쓰이고, LEFT JOIN 으로 쓰는 개발자도 있
 
 <center><img src="https://user-images.githubusercontent.com/32683894/91832062-da8e9300-ec7f-11ea-9c24-b4176ecbfc87.png" alt="image" style="zoom:50%;" /></center>
 
-LEFT JOIN은 A와 B 테이블 중에  **A값 + A와 B의 KEY값이 같은 결과 ** 를 리턴하는 것이다. 
+LEFT JOIN은 A와 B 테이블 중에  **A값 + A와 B의 KEY값이 같은 결과** 를 리턴하는 것이다. 
 
 ```sql
 SELECT * FROM TableA A LEFT JOIN TableB B ON A.key = B.key;
@@ -48,7 +48,7 @@ SELECT * FROM TableA A LEFT JOIN TableB B ON A.key = B.key;
 
 RIGHT JOIN은 A와 B 테이블 중에 **B 값 + A와 B의 KEY값이 같은 결과** 를 리턴하는 것이다.
 
-<center><img src="https://user-images.githubusercontent.com/32683894/91833819-26dad280-ec82-11ea-9256-18181ddc96a0.png" alt="image" style="zoom:50%;" /></center>
+<center><img src="https://user-images.githubusercontent.com/32683894/91833819-26dad280-ec82-11ea-9256-18181ddc96a0.png" alt="image" style="zoom:50%;" /></center><br>
 
 ```sql
 SELECT * FROM TableA A RIGHT JOIN TableB B ON A.key = B.key;
@@ -64,7 +64,7 @@ SELECT * FROM TableA A RIGHT JOIN TableB B ON A.key = B.key;
 
 그래서 B의 KEY 값이 IS NULL인지 확인한다.
 
-<center><img src="https://user-images.githubusercontent.com/32683894/91834764-6eae2980-ec83-11ea-8745-cb69161157d5.png" alt="image" style="zoom:50%;" /></center>
+<center><img src="https://user-images.githubusercontent.com/32683894/91834764-6eae2980-ec83-11ea-8745-cb69161157d5.png" alt="image" style="zoom:50%;" /></center><br>
 
 ```sql
 SELECT * FROM TableA A LEFT JOIN TableB B ON A.key = B.key
@@ -81,7 +81,7 @@ WHERE B.Key IS NULL;
 
 그래서 A의 KEY 값이 IS NULL인지 확인한다.
 
-<center><img src="https://user-images.githubusercontent.com/32683894/91834237-b97b7180-ec82-11ea-816d-54e44706ae49.png" alt="image" style="zoom:50%;" /></center>
+<center><img src="https://user-images.githubusercontent.com/32683894/91834237-b97b7180-ec82-11ea-816d-54e44706ae49.png" alt="image" style="zoom:50%;" /></center><br>
 
 ```sql
 SELECT * FROM TableA A RIGHT JOIN TableB B ON A.key = B.key
@@ -96,7 +96,7 @@ WHERE A.Key IS NULL;
 
 A와 B의 교집합 ( 서로 중복되는 값)을 보여준다. 
 
-<center><img src="https://user-images.githubusercontent.com/32683894/91835533-7de1a700-ec84-11ea-9435-2d0c66b2ed5d.png" alt="image" style="zoom:50%;" /></center>
+<center><img src="https://user-images.githubusercontent.com/32683894/91835533-7de1a700-ec84-11ea-9435-2d0c66b2ed5d.png" alt="image" style="zoom:50%;" /></center><br>
 
 ```sql
 SELECT * FROM TableA A INNER JOIN TableB B ON A.key = B.key;
@@ -108,7 +108,7 @@ SELECT * FROM TableA A INNER JOIN TableB B ON A.key = B.key;
 
 이름에서도 알수있는 FULL의 의미! A와 B 전체를 구하는 것!
 
-<center><img src="https://user-images.githubusercontent.com/32683894/91835803-d87b0300-ec84-11ea-984e-7abea0d1568c.png" alt="image" style="zoom:50%;" /></center>
+<center><img src="https://user-images.githubusercontent.com/32683894/91835803-d87b0300-ec84-11ea-984e-7abea0d1568c.png" alt="image" style="zoom:50%;" /></center><br>
 
 ```sql
 SELECT * FROM TableA A FULL OUTER JOIN TableB B ON A.key = B.key;
@@ -116,11 +116,10 @@ SELECT * FROM TableA A FULL OUTER JOIN TableB B ON A.key = B.key;
 
 
 
-여기서 문제! MySQL은 FULL OUTER JOIN을 지원하지 않는다고 한다.
+- 여기서 문제! MySQL은 FULL OUTER JOIN을 지원하지 않는다고 한다.
+- 그래서 LEFT JOIN과 RIGHT JOIN을 UNION해서 사용해야한다.
 
-그래서 LEFT JOIN과 RIGHT JOIN을 UNION해서 사용해야한다.
-
-```mysql
+```sql
 SELECT * FROM TableA A LEFT JOIN TableB B 
 UNION
 SELECT * FROM TableA A RIGHT JOIN TableB B
@@ -130,7 +129,7 @@ SELECT * FROM TableA A RIGHT JOIN TableB B
 
 ## 7. FULL OUTER JOIN (교집합 제외)
 
-<center><img src="https://user-images.githubusercontent.com/32683894/91838564-ae2b4480-ec88-11ea-93e9-7fc17b8962ca.png" alt="image" style="zoom:50%;" /></center>
+<center><img src="https://user-images.githubusercontent.com/32683894/91838564-ae2b4480-ec88-11ea-93e9-7fc17b8962ca.png" alt="image" style="zoom:50%;" /></center><br>
 
 ```sql
 SELECT * FROM TableA A LEFT JOIN TableB B 
@@ -145,7 +144,7 @@ WHERE A.key IS NULL OR B.key IS NULL
 
 ## Reference
 
-https://yoo-hyeok.tistory.com/98
+[https://yoo-hyeok.tistory.com/98](https://yoo-hyeok.tistory.com/98)
 
 그림들은 모두 직접 제작했다. (출처 남기고 퍼가기 가능)
 
