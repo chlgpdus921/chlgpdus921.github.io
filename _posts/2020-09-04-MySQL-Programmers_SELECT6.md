@@ -7,6 +7,7 @@ comments: true
 categories:
   - Programmers
 tags: 
+  - [MySQL, Database, Programmers]
 toc: true
 toc_sticky: true
 last_modified_at:  2020-09-03 04:15:00 +0000
