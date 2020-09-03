@@ -1,7 +1,7 @@
 ---
 
 title:  "[프로그래머스-MySQL] 역순 정렬하기 LEVEL 1"
-excerpt: "역순 정렬하기 문제 풀이"
+excerpt: "역순 정렬하기 문제 풀이, SELECT"
 comments: true
 
 categories:

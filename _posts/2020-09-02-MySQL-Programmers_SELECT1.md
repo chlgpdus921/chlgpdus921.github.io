@@ -1,7 +1,7 @@
 ---
 
 title:  "[프로그래머스-MySQL] 모든 레코드 조회하기 LEVEL 1"
-excerpt: "모든 레코드 조회하기 문제 풀이"
+excerpt: "모든 레코드 조회하기 문제 풀이, SELECT"
 comments: true
 
 categories:

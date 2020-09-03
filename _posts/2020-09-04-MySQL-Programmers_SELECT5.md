@@ -1,7 +1,7 @@
 ---
 
 title:  "[프로그래머스-MySQL] 동물의 아이디와 이름 LEVEL 1"
-excerpt: "동물의 아이디와 이름 문제 풀이"
+excerpt: "동물의 아이디와 이름 문제 풀이, SELECT"
 comments: true
 
 categories:

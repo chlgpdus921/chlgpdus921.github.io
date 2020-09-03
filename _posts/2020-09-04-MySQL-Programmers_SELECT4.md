@@ -1,7 +1,7 @@
 ---
 
 title:  "[프로그래머스-MySQL] 어린 동물 찾기 LEVEL 1"
-excerpt: "어린 동물 찾기 문제 풀이"
+excerpt: "어린 동물 찾기 문제 풀이, SELECT"
 comments: true
 
 categories:
