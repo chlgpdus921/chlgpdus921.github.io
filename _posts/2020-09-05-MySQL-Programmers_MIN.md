@@ -75,7 +75,7 @@ SELECT MIN(DATETIME) FROM ANIMAL_INS;
 
 
 
-cf.)  문제 제목이 최솟값 구하기므로 MIN을 활용해서 푸는게 모법답안!
+cf.)  문제 제목이 최솟값 구하기므로 MIN을 활용해서 푸는게 모범답안!
 
 
 
