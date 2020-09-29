@@ -2,7 +2,7 @@
 
 
 title:  "[프로그래머스-MySQL] 보호소에서 중성화한 동물 LEVEL 4"
-excerpt: 보호소에서 중성화한 동물 문제 풀이, JOIN"
+excerpt: "보호소에서 중성화한 동물 문제 풀이, JOIN"
 comments: true
 
 categories:
