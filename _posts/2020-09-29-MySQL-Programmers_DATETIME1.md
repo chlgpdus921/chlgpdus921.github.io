@@ -2,7 +2,7 @@
 
 
 title:  "[프로그래머스-MySQL] 오랜 기간 보호한 동물 LEVEL 3"
-excerpt: 오랜 기간 보호한 동물, DATETIME"
+excerpt: "오랜 기간 보호한 동물, DATETIME"
 comments: true
 
 categories:
