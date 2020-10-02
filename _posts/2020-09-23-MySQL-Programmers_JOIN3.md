@@ -1,7 +1,7 @@
 ---
 
 title:  "[프로그래머스-MySQL] 오랜 기간 보호한 동물(1) LEVEL 3"
-excerpt: 오랜 기간 보호한 동물(1) 문제 풀이, JOIN"
+excerpt: "오랜 기간 보호한 동물(1) 문제 풀이, JOIN"
 comments: true
 
 categories:
