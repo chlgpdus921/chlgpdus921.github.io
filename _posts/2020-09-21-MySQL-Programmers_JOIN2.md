@@ -1,7 +1,7 @@
 ---
 
 title:  "[프로그래머스-MySQL] 있었는데요 없었습니다 LEVEL 3"
-excerpt: 있었는데요 없었습니다 문제 풀이, JOIN"
+excerpt: "있었는데요 없었습니다 문제 풀이, JOIN"
 comments: true
 
 categories:
