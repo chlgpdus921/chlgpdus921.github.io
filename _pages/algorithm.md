@@ -1,10 +1,10 @@
 ---
-title: "Algorithm"
+title: "Base Camp"
 layout: category
-permalink: /categories/algorithm/
-taxonomy: Algorithm
+permalink: /categories/basecamp/
+taxonomy: Base Camp
 author_profile: true
 ---
 
-스스로 공부하며 정리한 내용입니다.
+NHN godo 신입 기술교육 기간동안 배운 내용 회고입니다.
 
