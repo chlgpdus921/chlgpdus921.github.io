@@ -1,18 +1,16 @@
 ---
-title:  "신입교육 1"
+title:  "신입교육 첫째날"
 excerpt: "신입교육"
-permalink: /practice/
+permalink: /basecamp/day1
 comments: true
 
 categories:
-  - Blog
+  - basecamp
 tags: 
-  - Blog
+  - basecamp
 toc: true
 toc_sticky: true
 last_modified_at:  2020-03-24 8:30:00 +0000
 ---
 
-HELLO 
-
-Welcome to Hyeyeon's Study Blog!!!!
+신입 교육 첫째날 포스트 입니다.
