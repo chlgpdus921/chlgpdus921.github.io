@@ -6,12 +6,13 @@ comments: true
 permalink: /basecamp/day1
 
 categories:
-  - Base Camp
+  - BaseCamp
 tags: 
-  - Base Camp
+  - BaseCamp
 toc: true
 toc_sticky: true
 last_modified_at:  2021-01-18 01:12:00 +0000
 ---
 
-## Goal
+
+helloworld
