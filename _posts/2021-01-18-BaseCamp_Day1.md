@@ -1,7 +1,7 @@
 ---
 title:  "신입교육 첫째날"
 excerpt: "신입교육"
-permalink: /categories/basecamp/day1
+permalink: /basecamp/day1
 comments: true
 
 categories:
