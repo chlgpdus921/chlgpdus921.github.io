@@ -1,6 +1,4 @@
 ---
-
-
 title:  "신입교육 첫째날"
 excerpt: "intro"
 permalink: /basecamp/day1
@@ -16,4 +14,4 @@ categories:
 ---
 
 
-
+helloworld
