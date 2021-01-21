@@ -2,7 +2,7 @@
 title: "Base Camp"
 layout: category
 permalink: /categories/basecamp/
-taxonomy: Base Camp
+taxonomy: basecamp
 author_profile: true
 ---
 

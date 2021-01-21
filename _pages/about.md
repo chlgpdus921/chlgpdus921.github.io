@@ -7,8 +7,6 @@ author_profile: true
 
 <br>
 
-<br>
-
 👩‍ . Name : Hye Yeon Choi
 
 🏢 . Company : NHN godo 루키새콤
@@ -18,8 +16,6 @@ author_profile: true
 
 
 공부 목적으로 블로그 운영하고 있습니다.
-
-<br>
 
 잘 부탁드립니다.
 
