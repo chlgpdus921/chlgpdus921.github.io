@@ -5,7 +5,7 @@ excerpt: "MySQL Join 종류 마스터 해보자 (LEFT JOIN, RIGHT JOIN, FULL OUT
 comments: true
 
 categories:
-  - Basecamp
+  - basecamp
 tags: 
   - [MySQL, Database, join, Basecamp]
 toc: true
