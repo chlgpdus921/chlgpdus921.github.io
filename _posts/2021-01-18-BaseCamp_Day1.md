@@ -7,10 +7,13 @@ comments: true
 categories:
   - basecamp
 tags: 
-  - basecamp
+  - Basecamp
 toc: true
 toc_sticky: true
-last_modified_at:  2020-03-24 8:30:00 +0000
+last_modified_at:  2021-01-18 08:30:00 +0000
 ---
 
-신입 교육 첫째날 포스트 입니다.
+신입 교육 첫째날 
+네비게이션 설정 TEST POST 입니다.
+
+앞으로 파이팅!!!!
