@@ -5,7 +5,9 @@ layout: single
 author_profile: true
 ---
 
+<br>
 
+<br>
 
 👩‍ . Name : Hye Yeon Choi
 
@@ -15,7 +17,10 @@ author_profile: true
 
 
 
-공부 목적으로 블로그 운영 중에 있습니다.
-잘부탁드립니다. 
+공부 목적으로 블로그 운영하고 있습니다.
+
+<br>
+
+잘 부탁드립니다.
 
 
