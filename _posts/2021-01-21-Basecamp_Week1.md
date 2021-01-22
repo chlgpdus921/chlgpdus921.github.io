@@ -1,6 +1,6 @@
 ---
-title:  "베이스캠프 1주차 소감"
-excerpt: "NHN godo basecamp 1주차 소감문입니다."
+title:  "NHN 베이스캠프 1주차 소감"
+excerpt: "NHN basecamp 1주차 소감문입니다."
 comments: true
 
 categories:
