@@ -9,7 +9,7 @@ author_profile: true
 
 👩‍ . Name : Hye Yeon Choi
 
-🏢 . Company : NHN godo 루키새콤
+🏢 . Company : NHN godo Developer
 
 😆 . Hobby : Yoga and Game 🧘‍♀️🎮
 
