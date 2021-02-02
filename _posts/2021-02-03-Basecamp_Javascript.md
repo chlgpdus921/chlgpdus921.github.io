@@ -267,7 +267,9 @@ parseInt('1');
 
 이 글은 모던 자바스크립트 책을 보며 작성했다.
 
-http://www.yes24.com/Product/Goods/92742567
+[모던 자바스크립트 Deep Live](http://www.yes24.com/Product/Goods/92742567)
+
+
 
 
 
