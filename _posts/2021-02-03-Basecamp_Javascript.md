@@ -261,6 +261,186 @@ parseInt('1');
 
 
 
+### 10장
+
+**객체란?**
+
+자바스크립트는 객체기반의 프로그래밍 언어. 
+
+객체는 프로퍼티와 메서드로 구성된 집합체다. 
+
+
+
+**프로퍼티**
+
+객체는 프로퍼티로 구성되며, 프로퍼티는 키와 값으로 구성된다.
+
+```javascript
+var person = {
+	//프로퍼티 키 : name, 프로퍼티 값 : CHOI
+    name : 'CHOI',
+
+    //프로퍼티 키 : age, 프로퍼티 값 : 20
+    age : 20
+
+};
+
+//프로퍼티 접근 방법
+console.log(person.name);
+console.log(person['name']);
+
+//프로퍼티 값 갱신
+person.name = 'kim';
+
+//프로퍼티 동적 생성 - 동적으로 생성되고 값이 할당된다. 
+person.lastname = 'hyeyeon' 
+
+//프로퍼티 삭제
+delete person.age;
+delete person.address; //원래 없으므로 에러가 발생하지 않는다. 
+```
+
+
+
+**메서드 축약 표현**
+
+```javascript
+var obj = {
+    name : 'choi',
+    say : function(){
+        console.log('hi');
+    }
+};
+
+const obj = {
+    name : 'choi',
+    say(){
+        console.log('hi');
+    }
+};
+```
+
+
+
+### 11장
+
+**문자열과 불변성**
+
+- 다음과 같은 상황에서 world로 수정할 때, 참조된 메모리 공간을 수정하는 것이 아니다. 새로운 메모리에 'world'를 생성하고 식별자 str이 이것을 가리키는 것이다. 
+
+```javascript
+var str = 'hello';
+str = 'world';
+
+str[1] = 'p'; //변경 불가. 문자열은 읽기 전용 값이다. 
+```
+
+
+
+**값에 의한 전달**
+
+```javascript
+var score = 80;
+var copy = score; //다른 메모리 공간에 저장된 별개의 값이다. 
+
+console.log(score, copy); // 80 80 
+console.log(score === copy); //True
+
+score = 100;
+
+console.log(score, copy); //100 80
+console.log(score === copy); //false
+```
+
+ 
+
+**참조에 의한 전달** 
+
+서로 같은 메모리 주소 값을 가리킴. 즉 두 개의 식별자가 하나의 객체를 공유한다. 
+
+```javascript
+var person = {
+    name : 'CHOI',
+    age : 20
+
+};
+
+//참조 값을 복사 (얕은 복사)
+var copy = person; 
+
+console.log(copy === person); //true
+
+copy.name = 'kim';
+person.address = 'seoul';
+
+console.log(person); //{name : "kim", address : "seoul"}
+console.log(copy); //{name : "kim", address : "seoul"}
+```
+
+
+
+### 12장 함수
+
+**함수 리터럴**
+
+- 함수도 객체 타입의 값이다. 함수 리터럴은 function 키워드, 함수 이름, 매개 변수 목록, 함수 몸체로 구성된다. 일반 객체는 호출할 수 없지만, 함수는 호출할 수 있다. 
+
+```javascript
+//변수에 함수 리터럴을 할당
+var f = function add(x,y){
+    return x + y;
+}
+
+//함수 선언식
+function add(x,y){
+    return x + y;
+}
+
+//함수 표현식
+var f = function add(x,y){
+    return x + y;
+}
+
+//Function 생성자 함수
+var add = new Function('x', 'y', 'return x + y');
+
+//화살표 함수
+var add = (x,y) => x + y;
+```
+
+
+
+- 함수는 함수 이름으로 호출하는 것이 아니라 함수 객체를 가리키는 식별자로 호출한다. 
+
+```javascript
+var f = function add(x,y){
+    return x + y;
+}
+//f : 식별자
+//add : 함수 이름
+console.log(f(2,5)); //7
+```
+
+
+
+**콜백 함수**
+
+함수의 매개변수를 통해 다른 함수의 내부로 전달되는 함수
+
+콜백 함수는 비동기처리 (이벤트 처리, Ajax 통신, 타이머 함수 등) 에 활용되는 중요한 패턴이다. 
+
+```javascript
+document.getElementById('myButton').addEventListener('click', function(){
+    console.log('button clicked');
+});
+
+setTimeout(function(){
+    console.log('1초 경과');
+});
+```
+
+
+
 ---
 
 ### Reference
