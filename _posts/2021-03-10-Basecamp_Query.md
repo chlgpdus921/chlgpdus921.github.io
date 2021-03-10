@@ -1,6 +1,28 @@
+---
+title:  "테이블 및 쿼리 작성법"
+excerpt: "NHN basecamp 기술 교육 내용 회고입니다."
+comments: true
+
+categories:
+  - basecamp
+tags: 
+  - [basecamp]
+toc: true
+toc_sticky: true
+last_modified_at:  2021-02-21 03:15:00 +0000
+---
+
+## Goal
+
+> - 테이블 및 쿼리 작성법을 이해한다. 
+> - 인덱스 생성 및 비용에 대해 이해한다. 
+> - NOW() 와 SYSDATE() 차이를 알 수 있다.
+
+---
+
 ## 테이블 및 쿼리 작성법
 
-#### 테이블 작성하는 법
+### 테이블 작성하는 법
 
 : data type 은 최대한 작게 설계하기 
 
@@ -14,7 +36,7 @@
 
 
 
-#### NOT NULL 속성 적용
+### NOT NULL 속성 적용
 
 - 기본이 null 허용
 
@@ -22,41 +44,42 @@
 
 
 
-#### 쿼리 작성하는 법
+### 쿼리 작성하는 법
 
 - Select 절에는 필요한 컬럼만 작성
   - 불필요한 자원 소모
-  - select * (x), 
+  - select * (x)
+
+
+----
+
+## 인덱스 생성 기준
+
+**cardinality** :
+
+- 인덱싱 된 컬럼의 유니크한 값의 수 
+
+- show index from 컬럼명;
+
+- 8개의 페이지 샘플링으로 통계된 값. 근사치 확인
+
+- cardinality가 높으면 유니크한 값들이 많다는 뜻
 
 
 
-#### 인덱스 생성 기준
-
-cardinality :
-
-인덱싱 된 컬럼의 유니크한 값의 수 
-
-show index from 컬럼명;
-
-8개의 페이지 샘플링으로 통계된 값. 근사치 확인
-
-cardinality가 높으면 유니크한 값들이 많다는 뜻
-
-
-
-#### 결합 인덱스(컬럼 여러개) 생성시 고려 
+### 결합 인덱스(컬럼 여러개) 생성시 고려 
 
 equal 조건은 좌측, range 조건은 우측 배치
 
 
 
-#### join절의 on에 해당하는 컬럼에 인덱스 추가 
+### join절의 on에 해당하는 컬럼에 인덱스 추가 
 
 Create index idx_rest on reservation (reservationid);
 
 
 
-#### 인덱스도 비용이다. 
+### 인덱스도 비용이다. 
 
 - 테이블과 마찬가지로 공간을 차지 
 - insert, update, delete시 인덱스도 변경 필요. 조회는 빠름
@@ -72,14 +95,14 @@ Create index idx_rest on reservation (reservationid);
 
 
 
-#### LIKE
+### LIKE
 
 - 와일드카드가 검색어 앞쪽 -> 인덱스 레인지 스캔 불가
 - 웬만하면 like 안쓰는 것이 좋음
 
 
 
-#### NOW() vs SYSDATE()
+### NOW() vs SYSDATE()
 
 ```mysql
 select SYSDATE(), sleep(2), SYSDATE();
@@ -93,7 +116,7 @@ select SYSDATE(), sleep(2), SYSDATE();
 
 
 
-#### 실행계획 결과 정보 확인 방법
+### 실행계획 결과 정보 확인 방법
 
 - 쿼리앞에 explain 붙혀주기 
 - Explain format = tree (모양 보기편함)
