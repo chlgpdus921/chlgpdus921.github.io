@@ -20,11 +20,9 @@ last_modified_at:  2021-02-21 03:15:00 +0000
 
 ---
 
-## 테이블 및 쿼리 작성법
-
 ### 테이블 작성하는 법
 
-: data type 은 최대한 작게 설계하기 
+- data type 은 최대한 작게 설계하기 
 
 **Char(1)** 
 
@@ -51,11 +49,10 @@ last_modified_at:  2021-02-21 03:15:00 +0000
   - select * (x)
 
 
-----
 
 ## 인덱스 생성 기준
 
-**cardinality** :
+#### **cardinality** :
 
 - 인덱싱 된 컬럼의 유니크한 값의 수 
 
@@ -75,7 +72,9 @@ equal 조건은 좌측, range 조건은 우측 배치
 
 ### join절의 on에 해당하는 컬럼에 인덱스 추가 
 
+```mysql
 Create index idx_rest on reservation (reservationid);
+```
 
 
 
@@ -85,13 +84,18 @@ Create index idx_rest on reservation (reservationid);
 - insert, update, delete시 인덱스도 변경 필요. 조회는 빠름
 - 쿼리 빈도수/ 쿼리 조건절/ 데이터 분포도에 따라 최소한의 인덱스를 생성하기 
 
-(int) order_no = '1' 우측에서 형변환. 인덱스 활용 가능
+```mysql
+(int) order_no = '1' 
+# 우측에서 형변환. 인덱스 활용 가능
 
-(varchar) order_status_cd = 10; str이라서 좌측에서 형변환. 인덱스 활용 불가
+(varchar) order_status_cd = 10; 
+# str이라서 좌측에서 형변환. 인덱스 활용 불가
 
-(datetime) order_umdt = '2011-02-17'; 우측에서 형변환. 인덱스 활용 가능
+(datetime) order_umdt = '2011-02-17'; 
+# 우측에서 형변환. 인덱스 활용 가능
 
-이런거 따지지말고 똑같이 dateType을 맞춰주자.
+# 결론 : 이런거 따지지말고 똑같이 dateType을 맞춰주자.
+```
 
 
 
@@ -125,9 +129,7 @@ select SYSDATE(), sleep(2), SYSDATE();
 
 
 
-### Reference
-
----
+## Reference
 
 교육명 : NHN basecamp SQL 이론 및 쿼리 검수 결과 공유
 
