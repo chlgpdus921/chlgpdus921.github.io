@@ -24,13 +24,10 @@ last_modified_at:  2021-02-21 03:15:00 +0000
 
 - data type 은 최대한 작게 설계하기 
 
-**Char(1)** 
-
-- 'Y', 'N' / 직관적
-
-**Tinyint**
-
-- 0,1 저장 -> 1byte
+- **Char(1)** 
+  - 'Y', 'N' / 직관적
+- **Tinyint**
+  - 0,1 저장 -> 1byte
 
 
 
@@ -52,7 +49,7 @@ last_modified_at:  2021-02-21 03:15:00 +0000
 
 ## 인덱스 생성 기준
 
-#### **cardinality** :
+#### **cardinality**
 
 - 인덱싱 된 컬럼의 유니크한 값의 수 
 
@@ -72,6 +69,8 @@ equal 조건은 좌측, range 조건은 우측 배치
 
 ### join절의 on에 해당하는 컬럼에 인덱스 추가 
 
+
+
 ```mysql
 Create index idx_rest on reservation (reservationid);
 ```
@@ -81,8 +80,12 @@ Create index idx_rest on reservation (reservationid);
 ### 인덱스도 비용이다. 
 
 - 테이블과 마찬가지로 공간을 차지 
+
 - insert, update, delete시 인덱스도 변경 필요. 조회는 빠름
+
 - 쿼리 빈도수/ 쿼리 조건절/ 데이터 분포도에 따라 최소한의 인덱스를 생성하기 
+
+  
 
 ```mysql
 (int) order_no = '1' 
@@ -107,6 +110,8 @@ Create index idx_rest on reservation (reservationid);
 
 
 ### NOW() vs SYSDATE()
+
+
 
 ```mysql
 select SYSDATE(), sleep(2), SYSDATE();
