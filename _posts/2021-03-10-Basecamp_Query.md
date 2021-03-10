@@ -49,7 +49,7 @@ last_modified_at:  2021-02-21 03:15:00 +0000
 
 ## 인덱스 생성 기준
 
-#### **cardinality**
+#### cardinality
 
 - 인덱싱 된 컬럼의 유니크한 값의 수 
 
@@ -71,7 +71,7 @@ equal 조건은 좌측, range 조건은 우측 배치
 
 
 
-```mysql
+```sql
 Create index idx_rest on reservation (reservationid);
 ```
 
@@ -87,7 +87,7 @@ Create index idx_rest on reservation (reservationid);
 
   
 
-```mysql
+```sql
 (int) order_no = '1' 
 # 우측에서 형변환. 인덱스 활용 가능
 
@@ -113,7 +113,7 @@ Create index idx_rest on reservation (reservationid);
 
 
 
-```mysql
+```sql
 select SYSDATE(), sleep(2), SYSDATE();
 ```
 
