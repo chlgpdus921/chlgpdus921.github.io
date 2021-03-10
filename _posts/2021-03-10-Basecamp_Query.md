@@ -132,8 +132,6 @@ select SYSDATE(), sleep(2), SYSDATE();
 
 
 
-
-
 ## Reference
 
 교육명 : NHN basecamp SQL 이론 및 쿼리 검수 결과 공유
